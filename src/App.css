@@ -58,3 +58,13 @@ h1 {
     opacity: 1;
   }
 }
+.project {
+}
+projectImage {
+  display: flex;
+  justify-content: space-evenly;
+}
+.display {
+  display: flex;
+  justify-content: center;
+}

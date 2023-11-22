@@ -4,7 +4,7 @@ export default function Scroll() {
   const [displayText, setDisplayText] = useState("");
   useEffect(() => {
     const text = "Akintunde Oluborode";
-    const text2 = " frontend developer";
+
     function update(index) {
       setTimeout(() => {
         setDisplayText((prev) => prev + text[index]);
