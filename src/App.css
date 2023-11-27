@@ -11,6 +11,15 @@ p {
   background-color: white;
   margin: 20px;
 }
+.contact {
+  justify-content: center;
+  font-size: large;
+  padding: 20px;
+  background-color: black;
+  width: 450px;
+  height: auto;
+  color: magenta;
+}
 .nav {
   background-color: black;
   color: white;
@@ -65,6 +74,48 @@ projectImage {
   justify-content: space-evenly;
 }
 .display {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
+}
+.form {
+  display: block;
+}
+.mark {
+  display: flex;
+  font-size: x-small;
+}
+input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  padding: 10px;
+  border-style: none;
+  width: 270px;
+  height: 40px;
+}
+textarea {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 270px;
+  border-radius: 10px;
+}
+.cont {
+  font-size: 50px;
+}
+
+@media (max-width: 768px) {
+  .display {
+    grid-template-columns: 1fr;
+  }
+  .contact {
+    justify-content: center;
+    font-size: large;
+    padding: 10px;
+    background-color: black;
+    width: 400px;
+    height: auto;
+    color: white;
+  }
 }
